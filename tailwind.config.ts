@@ -54,6 +54,14 @@ export default {
           600: "hsl(var(--blue-600))",
           700: "hsl(var(--blue-700))",
         },
+        purple: {
+          500: "hsl(var(--purple-500))",
+          600: "hsl(var(--purple-600))",
+        },
+        orange: {
+          500: "hsl(var(--orange-500))",
+          600: "hsl(var(--orange-600))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -68,10 +76,12 @@ export default {
       backgroundImage: {
         'gradient-hero': 'var(--gradient-hero)',
         'gradient-card': 'var(--gradient-card)',
+        'gradient-accent': 'var(--gradient-accent)',
       },
       boxShadow: {
         'card': 'var(--shadow-card)',
         'hero': 'var(--shadow-hero)',
+        'glow': 'var(--shadow-glow)',
       },
       borderRadius: {
         lg: "var(--radius)",
