@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 210 40% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,26 +17,41 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 217 91% 35%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 92%;
+    --secondary-foreground: 217 91% 25%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 40% 95%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 212 100% 47%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 217 91% 35%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom blue theme colors */
+    --blue-50: 210 40% 98%;
+    --blue-100: 210 40% 95%;
+    --blue-500: 217 91% 35%;
+    --blue-600: 217 91% 30%;
+    --blue-700: 217 91% 25%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--blue-500)), hsl(var(--accent)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(var(--blue-50)) 100%);
+    
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(var(--blue-500) / 0.1), 0 2px 4px -1px hsl(var(--blue-500) / 0.06);
+    --shadow-hero: 0 10px 25px -3px hsl(var(--blue-500) / 0.1), 0 4px 6px -2px hsl(var(--blue-500) / 0.05);
 
     --sidebar-background: 0 0% 98%;
 
