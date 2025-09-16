@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Users, ClipboardCheck, Award, UserCheck, LogIn, Sparkles } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/college-building.png";
 import { useState } from "react";
 
 const Index = () => {
@@ -126,7 +126,7 @@ const Index = () => {
               <div className="absolute -inset-4 bg-gradient-accent rounded-3xl blur opacity-20"></div>
               <img 
                 src={heroImage} 
-                alt="Students collaborating on digital projects" 
+                alt="Shri G.S. Institute of Tech & Science campus building" 
                 className="relative rounded-2xl shadow-hero w-full h-auto border-2 border-primary/20"
               />
             </div>
